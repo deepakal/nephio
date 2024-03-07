@@ -19,5 +19,3 @@ kpt live init cert-manager-basic
 kpt live apply cert-manager-basic --reconcile-timeout=2m --output=table
 ```
 Details: https://kpt.dev/reference/cli/live/
-
-Test
