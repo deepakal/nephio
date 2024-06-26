@@ -11,4 +11,3 @@ metadata: # kpt-merge: cert-manager/cert-manager-webhook
     app.kubernetes.io/component: "webhook"
   annotations:
     internal.kpt.dev/upstream-identifier: '|ConfigMap|cert-manager|cert-manager-webhook'
-data:
