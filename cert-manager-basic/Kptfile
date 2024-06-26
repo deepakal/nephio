@@ -4,19 +4,19 @@ metadata: # kpt-merge: /cert-manager-basic
   name: cert-manager-basic
   annotations:
     config.kubernetes.io/local-config: "true"
-    internal.kpt.dev/upstream-identifier: 'kpt.dev|Kptfile|default|cert-manager-basic'
+    internal.kpt.dev/upstream-identifier: kpt.dev|Kptfile|default|cert-manager-basic
 upstream:
   type: git
   git:
     repo: https://github.com/deepakal/blueprint.git
     directory: cert-manager-basic
-    ref: cert-manager-basic/v1
+    ref: cert-manager-basic/v2
 upstreamLock:
   type: git
   git:
     repo: https://github.com/deepakal/blueprint.git
     directory: cert-manager-basic
-    ref: cert-manager-basic/v1
-    commit: b8c77c34201089cbfad9c94c39f84cf7525aca3e
+    ref: cert-manager-basic/v2
+    commit: d1d96bb15bb3144bb7ca5242fb24b889b190c37a
 info:
   description: sample description
