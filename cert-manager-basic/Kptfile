@@ -10,13 +10,13 @@ upstream:
   git:
     repo: https://github.com/deepakal/blueprint.git
     directory: cert-manager-basic
-    ref: cert-manager-basic/v2
+    ref: cert-manager-basic/v1
 upstreamLock:
   type: git
   git:
     repo: https://github.com/deepakal/blueprint.git
     directory: cert-manager-basic
-    ref: cert-manager-basic/v2
-    commit: d1d96bb15bb3144bb7ca5242fb24b889b190c37a
+    ref: cert-manager-basic/v1
+    commit: b8c77c34201089cbfad9c94c39f84cf7525aca3e
 info:
   description: sample description
