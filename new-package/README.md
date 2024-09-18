@@ -1,7 +1,7 @@
 # new-package
 
 ## Description
-sample description.... Edited
+sample description.... Edited (one more time)
 
 ## Usage
 
