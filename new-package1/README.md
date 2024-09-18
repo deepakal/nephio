@@ -12,7 +12,7 @@ second edit (one more.....). Some thing extra
 Details: https://kpt.dev/reference/cli/pkg/get/
 
 ### View package content
-`kpt pkg tree new-package1`
+`kpt pkg tree new-package1` to view
 Details: https://kpt.dev/reference/cli/pkg/tree/
 
 ### Apply the package
